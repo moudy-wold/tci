@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TCI</title>
+
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="main">
+      <!-- Start NAvbar -->
       <div class="navBar">
-        <!-- absolute top-0 left-0 z-50   -->
-
         <div class="main_in_navbar container">
           <!-- Start Logo  -->
           <div class="parent_of_logo">
@@ -46,9 +52,6 @@
 
           <div class="parent_of_Links_in_small">
             <ul class="">
-              <li class="close_burgerMenu">
-                <i class="fa-solid fa-xmark"></i>
-              </li>
               <li class="">
                 <a href="/" class="link"> Home </a>
               </li>
@@ -72,32 +75,44 @@
           <!-- {/* End Links */} -->
 
           <!-- {/* Start Search And Language Icos */} -->
-          <div class="search_Lang">
+          <div class="search_Langu">
             <!-- {/* Start Language Icons */} -->
-            <div class="lang">
-              <button class="lang_icon">
+            <div class="langu">
+              <button class="langu_icon">
                 <i class="fa-solid fa-earth-europe"></i>
               </button>
 
-              <div class="lang_list">
+              <div class="langu_list">
                 <ul class=" ">
                   <li class="">
-                    <img src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"  class="lang_img"/>
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="langu_img"
+                    />
                     <p class="">عربي</p>
                   </li>
                   <li class="">
-                    <img src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"  class="lang_img"/>
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
                     <p class="">English</p>
                   </li>
                   <li class="">
-                    <img src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"  class="lang_img"/>
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
                     <p class="">English</p>
                   </li>
                   <li class="">
-                    <img src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"  class="lang_img"/>
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
                     <p class="">English</p>
                   </li>
-                </ul>
+                </ul>               
               </div>
             </div>
             <!-- {/* End Language Icons */} -->
@@ -115,7 +130,6 @@
                       placeholder="Search..."
                       class="input_search"
                     />
-
                     <button type="button" class="empty_search">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -147,11 +161,784 @@
           <!-- {/* End Search And Language Icos */} -->
         </div>
       </div>
+      <!-- End NAvbar -->
+
+      <!-- Start Hero -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#">
+              <img
+                class="d-block w-100"
+                src="./assets/img/hero-1.jpg"
+                alt="First slide"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="#">
+              <img
+                class="d-block w-100"
+                src="./assets/img/hero-2.jpg"
+                alt="Second slide"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="#">
+              <img
+                class="d-block w-100"
+                src="./assets/img/hero-3.jpg"
+                alt="Third slide"
+              />
+            </a>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- End Hero -->
+
+      <!-- Start Products -->
+      <section class="products container">
+        <div class="title_of_section">
+          <a href="#">
+            <h1 class="">RH-AUDIO PRODUCTS</h1>
+          </a>
+          <span class=""></span>
+        </div>
+
+        <div class="items_products">
+          <div class="product">
+            <div class="parent_of_hover_box">
+              <div class="hover_box">
+                <p class="">
+                  The RH-AUDIO PA Amplifiers are devices that amplify electrical
+                  signals that have been adjusted to an appropriate volume and
+                  <a href="#" class="">learn More</a>
+                </p>
+              </div>
+              <img src="./assets/img/product-1.jpg" alt="" class="" />
+            </div>
+
+            <div class="item_name">
+              <a href="" class="">Audio Source Devices</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="parent_of_hover_box">
+              <div class="hover_box">
+                <p class="">
+                  The RH-AUDIO PA Amplifiers are devices that amplify electrical
+                  signals that have been adjusted to an appropriate volume and
+                  <a href="#" class="">learn More</a>
+                </p>
+              </div>
+              <img src="./assets/img/product-1.jpg" alt="" class="" />
+            </div>
+
+            <div class="item_name">
+              <a href="" class="">Audio Source Devices</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="parent_of_hover_box">
+              <div class="hover_box">
+                <p class="">
+                  The RH-AUDIO PA Amplifiers are devices that amplify electrical
+                  signals that have been adjusted to an appropriate volume and
+                  <a href="#" class="">learn More</a>
+                </p>
+              </div>
+              <img src="./assets/img/product-1.jpg" alt="" class="" />
+            </div>
+
+            <div class="item_name">
+              <a href="" class="">Audio Source Devices</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="parent_of_hover_box">
+              <div class="hover_box">
+                <p class="">
+                  The RH-AUDIO PA Amplifiers are devices that amplify electrical
+                  signals that have been adjusted to an appropriate volume and
+                  <a href="#" class="">learn More</a>
+                </p>
+              </div>
+              <img src="./assets/img/product-1.jpg" alt="" class="" />
+            </div>
+
+            <div class="item_name">
+              <a href="" class="">Audio Source Devices</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Products -->
+
+      <!-- Start video -->
+      <section class="video">
+        <div class="container">
+          <!-- Start medya -->
+          <div class="medya">
+            <div class="title_of_section">
+              <a href="#">
+                <h1 class="">video</h1>
+              </a>
+              <span class=""></span>
+            </div>
+            <div class="player">
+              <div id="player"></div>
+            </div>
+          </div>
+          <!-- End medya -->
+
+          <!-- Start Desc -->
+          <div class="desc_in_video">
+            <div class="title_of_section">
+              <a href="#">
+                <h1 class="">RH-AUDIO</h1>
+              </a>
+              <span class=""></span>
+            </div>
+            <p class="">
+              Guangzhou Xinghongde Electronics Technology Co.,Ltd (Brand:
+              RH-AUDIO) manufactures and supplies reputable high-end devices of
+              public address system,offering pre-sales service on the solutions
+              according to customers' specific requirements and after-sales
+              service on installations. RH-AUDIO has built long and solid
+              business relationships with some of prestigious distributors and
+              dealers in the sound field from North America,South
+              America,Southeast Asia,Middle East,Africa and European Union.
+            </p>
+          </div>
+          <!-- End Desc -->
+        </div>
+      </section>
+      <!-- End video -->
+
+      <!-- Start Case -->
+      <section class="cases">
+        <div class="container">
+          <div class="title_of_section">
+            <a href="#">
+              <h1 class="">RH-AUDIO PRODUCTS</h1>
+            </a>
+            <span class=""></span>
+          </div>
+          <div class="cases_items">
+            <div class="case_item">
+              <div class="">
+                <img src="/assets/img/cases-1.jpg" alt="" class="" />
+              </div>
+              <div class="title_in_case">
+                <div class="title_of_section">
+                  <a href="#">
+                    <h1 class="">RH-AUDIO PRODUCTS</h1>
+                  </a>
+                  <span class=""></span>
+                </div>
+              </div>
+              <div class="desc">
+                <p class="text-center text-sm">
+                  RH-AUDIO offers a sophisticated multiple zone pa system for
+                  the complex of Chung Cu City Gate, which consists of
+                  commercial buildings, apartment buildings, hotels, schools etc
+                  with total land area 241,496.80m2, it is required by this
+                  complex with background music, remote paging, voice evacuation
+                  according to weekly schedules.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#" class="">Learn More</a>
+              </div>
+            </div>
+            <div class="case_item">
+              <div class="">
+                <img src="/assets/img/cases-1.jpg" alt="" class="" />
+              </div>
+              <div class="title_in_case">
+                <div class="title_of_section">
+                  <a href="#">
+                    <h1 class="">RH-AUDIO PRODUCTS</h1>
+                  </a>
+                  <span class=""></span>
+                </div>
+              </div>
+              <div class="desc">
+                <p class="text-center text-sm">
+                  RH-AUDIO offers a sophisticated multiple zone pa system for
+                  the complex of Chung Cu City Gate, which consists of
+                  commercial buildings, apartment buildings, hotels, schools etc
+                  with total land area 241,496.80m2, it is required by this
+                  complex with background music, remote paging, voice evacuation
+                  according to weekly schedules.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#" class="">Learn More</a>
+              </div>
+            </div>
+            <div class="case_item">
+              <div class="">
+                <img src="/assets/img/cases-1.jpg" alt="" class="" />
+              </div>
+              <div class="title_in_case">
+                <div class="title_of_section">
+                  <a href="#">
+                    <h1 class="">RH-AUDIO PRODUCTS</h1>
+                  </a>
+                  <span class=""></span>
+                </div>
+              </div>
+              <div class="desc">
+                <p class="text-center text-sm">
+                  RH-AUDIO offers a sophisticated multiple zone pa system for
+                  the complex of Chung Cu City Gate, which consists of
+                  commercial buildings, apartment buildings, hotels, schools etc
+                  with total land area 241,496.80m2, it is required by this
+                  complex with background music, remote paging, voice evacuation
+                  according to weekly schedules.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#" class="">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Case -->
+
+      <!-- Start Forum And solutions -->
+      <section class="forum">
+        <div class="container parent_of_forum">
+          <!-- Start Solutions -->
+          <div class="solution">
+            <div class="title_of_section">
+              <a href="#">
+                <h1 class="">SOLUTIONS</h1>
+              </a>
+              <span class=""></span>
+            </div>
+            <div class="">
+              <ul>
+                <li><a href="#">RH-AUDIO 10 ZONE PA System</a></li>
+                <li><a href="#">RH-AUDIO 16 Zone PA System</a></li>
+                <li><a href="#">RH-AUDIO IP Based PA System</a></li>
+                <li><a href="#">Hotels & Halls</a></li>
+                <li><a href="#">Parks & Squares</a></li>
+                <li><a href="#">Offices & Factories</a></li>
+                <li><a href="#">Commercial Facilities</a></li>
+                <li><a href="#">Shops & Supermarkets</a></li>
+                <li><a href="#">Residence & Community</a></li>
+                <li><a href="#">Educational & School Facilities</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Solutions -->
+
+          <!-- Start News -->
+          <div class="News">
+            <div class="">
+              <div class="title_of_section">
+                <a href="#">
+                  <h1 class="">NEWS</h1>
+                </a>
+                <span class=""></span>
+              </div>
+            </div>
+
+            <div class="items_news">
+              <div class="item_news">
+                <a href="#" class="">How to Choose a Ceiling Speaker</a>
+                <div class="content_in_item_news">
+                  <div class="data_news">2022.06.18</div>
+                  <div class="comment_count">
+                    <span class="text-mainColor textbase lg:text-xs">1658</span>
+                    <span class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-3 w-3"
+                        fill="#e30a17"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4l0 0 0 0 0 0 0 0 .3-.3c.3-.3 .7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div class="desc_item_news">
+                  <p
+                    class="text-base lg:text-sm text-subColor hover:scale-105 transition-all duration-200"
+                  >
+                    When choosing the type of in-ceiling speaker, make sure you
+                    check the power supply for the speaker au check the power
+                    supply for the speaker and its amplifier nd its amplifier
+                  </p>
+                </div>
+              </div>
+              <div class="item_news">
+                <a href="#" class="">How to Choose a Ceiling Speaker</a>
+                <div class="content_in_item_news">
+                  <div class="data_news">2022.06.18</div>
+                  <div class="comment_count">
+                    <span class="text-mainColor textbase lg:text-xs">1658</span>
+                    <span class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-3 w-3"
+                        fill="#e30a17"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4l0 0 0 0 0 0 0 0 .3-.3c.3-.3 .7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div class="desc_item_news">
+                  <p
+                    class="text-base lg:text-sm text-subColor hover:scale-105 transition-all duration-200"
+                  >
+                    When choosing the type of in-ceiling speaker, make sure you
+                    check the power supply for the speaker au check the power
+                    supply for the speaker and its amplifier nd its amplifier
+                  </p>
+                </div>
+              </div>
+              <div class="item_news">
+                <a href="#" class="">How to Choose a Ceiling Speaker</a>
+                <div class="content_in_item_news">
+                  <div class="data_news">2022.06.18</div>
+                  <div class="comment_count">
+                    <span class="text-mainColor textbase lg:text-xs">1658</span>
+                    <span class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-3 w-3"
+                        fill="#e30a17"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4l0 0 0 0 0 0 0 0 .3-.3c.3-.3 .7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div class="desc_item_news">
+                  <p
+                    class="text-base lg:text-sm text-subColor hover:scale-105 transition-all duration-200"
+                  >
+                    When choosing the type of in-ceiling speaker, make sure you
+                    check the power supply for the speaker au check the power
+                    supply for the speaker and its amplifier nd its amplifier
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End News -->
+        </div>
+      </section>
+      <!-- End Forum And solutions -->
+
+      <!-- Start Footer -->
+      <footer class="">
+        <div class="container">
+          <div class="in_large">
+            <div class="parent_of_large">
+              <!-- Start Title And Links  -->
+              <div class="">
+                <div class="title_box">
+                  <a href="/" class="">
+                    <h1 class="">Products</h1>
+                    <span class=""></span>
+                  </a>
+                </div>
+
+                <div class="link_box">
+                  <ul>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="title_box">
+                  <a href="/" class="">
+                    <h1 class="">Products</h1>
+                    <span class=""></span>
+                  </a>
+                </div>
+
+                <div class="link_box">
+                  <ul>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="title_box">
+                  <a href="/" class="">
+                    <h1 class="">Products</h1>
+                    <span class=""></span>
+                  </a>
+                </div>
+
+                <div class="link_box">
+                  <ul>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="/" class="">
+                        <span class="text-mainColor">*</span>
+                        <p class="truncate">PA Amplifiers</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- End Title And Links  -->
+
+              <!-- {/* Start Logo Section */} -->
+              <div class="">
+                <div class="logo_box">
+                  <a href="/" class="">
+                    <img src="./assets/img/logo.jpeg" alt="logo" class="" />
+                  </a>
+                  <span class="w-full h-[2px] block bg-[#6e6e6e] mt-4"></span>
+                </div>
+
+                <div class="contact_box">
+                  <div class="parnet_of_icon">
+                    <div class="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        fill="#e30a17"
+                      >
+                        <path
+                          d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                        />
+                      </svg>
+                    </div>
+
+                    <div class="desc">+86-20-39388220</div>
+                  </div>
+                  <div class="parnet_of_icon">
+                    <div class="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        class="h-3 w-3"
+                        fill="#e30a17"
+                      >
+                        <path
+                          d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                        />
+                      </svg>
+                    </div>
+
+                    <div class="desc">info@rh-audio.net</div>
+                  </div>
+                  <div class="parnet_of_icon">
+                    <div class="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        fill="#e30a17"
+                      >
+                        <path
+                          d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                        />
+                      </svg>
+                    </div>
+
+                    <div class="desc">
+                      Floor 6, Building J, Kaida Industrial Park, Shixin Road,
+                      Xinshuikeng
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="in_small">
+            <!-- {/* Start Logo And contact */} -->
+            <div class="contact_and_logo_box_small">
+              <div class="logo_box_small">
+                <img src="./assets/img/logo.jpeg" alt="logo" class="" />
+                <span class=""></span>
+              </div>
+
+              <div class="contact_box_small">
+                <div class="parnet_of_icon_small">
+                  <div class="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      fill="#e30a17"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="desc">+86-20-39388220</div>
+                </div>
+                <div class="parnet_of_icon_small">
+                  <div class="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      fill="#e30a17"
+                    >
+                      <path
+                        d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="desc">info@rh-audio.net</div>
+                </div>
+                <div class="parnet_of_icon_small">
+                  <div class="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                      fill="#e30a17"
+                    >
+                      <path
+                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="desc">
+                    Floor 6, Building J, Kaida Industrial Park, Shixin Road,
+                    Xinshuikeng
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- {/*End Logo And contact*/} -->
+          </div>
+        </div>
+      </footer>
+      <!-- Start Sosyal Mdya -->
+      <div class="sosyal_medya">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="up_scrool">
+              <i class="fa-solid fa-arrow-up"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End Footer -->
     </div>
-    <script src="./assets/js/index.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/5160667314.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
   </body>
 </html>
