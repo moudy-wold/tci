@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.15.1/antd.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <!-- Start NAvbar -->
+      <div class="navBar">
+        <div class="main_in_navbar container">
+          <!-- Start Logo  -->
+          <div class="parent_of_logo">
+            <a href="/">
+              <img src="./assets/img/logo.jpeg" alt="1" class="logo" />
+            </a>
+          </div>
+          <!-- {/* End Logo */} -->
+
+          <!-- {/* Start Links */} -->
+          <div class="parent_of_Links_in_large">
+            <ul class="">
+              <li class="">
+                <a href="/" class="link"> Home </a>
+              </li>
+              <li class="">
+                <a href="/Products" class="link"> Products </a>
+              </li>
+              <li class="">
+                <a href="/solutions" class="link"> solutions </a>
+              </li>
+              <li class="">
+                <a href="/Resourse" class="link"> Resourse </a>
+              </li>
+              <li class="About-Us">
+                <a href="/" class="link"> About-Us </a>
+              </li>
+              <li class="">
+                <a href="/Contact Us" class="link"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="parent_of_Links_in_small">
+            <ul class="">
+              <li class="">
+                <a href="/" class="link"> Home </a>
+              </li>
+              <li class="">
+                <a href="/Products" class="link"> Products </a>
+              </li>
+              <li class="">
+                <a href="/solutions" class="link"> solutions </a>
+              </li>
+              <li class="">
+                <a href="/Resourse" class="link"> Resourse </a>
+              </li>
+              <li class="About-Us">
+                <a href="/" class="link"> About-Us </a>
+              </li>
+              <li class="">
+                <a href="/Contact Us" class="link"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+          <!-- {/* End Links */} -->
+
+          <!-- {/* Start Search And Language Icos */} -->
+          <div class="search_Langu">
+            <!-- {/* Start Language Icons */} -->
+            <div class="langu">
+              <button class="langu_icon">
+                <i class="fa-solid fa-earth-europe"></i>
+              </button>
+
+              <div class="langu_list">
+                <ul class=" ">
+                  <li class="">
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="langu_img"
+                    />
+                    <p class="">عربي</p>
+                  </li>
+                  <li class="">
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
+                    <p class="">English</p>
+                  </li>
+                  <li class="">
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
+                    <p class="">English</p>
+                  </li>
+                  <li class="">
+                    <img
+                      src="https://www.rhaudiopa.com/themes/simple/img/country/en.png"
+                      class="lang_img"
+                    />
+                    <p class="">English</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- {/* End Language Icons */} -->
+
+            <!-- {/* Start Search */} -->
+            <div class="search">
+              <div class="main_search">
+                <button type="submit" class="search_icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <form class="search_form">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Search..."
+                      class="input_search"
+                    />
+                    <button type="button" class="empty_search">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="empty_svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- {/* End Search */} -->
+
+            <!-- Start Burger Menu Icon -->
+            <div class="burgerMenu_icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- End Burger Menu Icon -->
+          </div>
+          <!-- {/* End Search And Language Icos */} -->
+        </div>
+      </div>
+      <!-- End NAvbar -->
+
+      <!-- Start Hero -->
+      <div class="hero">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-house-chimney"></i><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#"> <span> > Products</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Hero -->
+
+      <!-- Start produc Section -->
+      <section class="product_section">
+        <div class="container parent_product_section">
+          <!-- Start SideBar -->
+          <div class="sidebar_product">
+            <div>
+              <ul class="products">
+                <li>
+                  <span>Products</span>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div class="title_box_in_sidebar">
+                    <span class="main_category_title">PA Amplifiers</span>
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title">IP Based PA Devices</span>
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title">PA Peripherals</span>
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title">PA Speakers</span>
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title">Microphones</span>
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title"
+                      >Audio Source Devices</span
+                    >
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <div>
+                    <span class="main_category_title"
+                      >Professional Sound Series</span
+                    >
+                    <i class="open_close fa-solid fa-chevron-right"></i>
+                  </div>
+                  <div class="item_menu parentOfItemInNavbar">
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Digital Class-D Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">One Zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Multi-zone Mixer Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Power Amplifiers</span>
+                    </p>
+                    <p class="">
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <span class="">Pre Amplifiers</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="parent_of_item_in_navbar">
+                  <span class="main_category_title">Miscellaneous</span>
+                  <i class="open_close fa-solid fa-chevron-right"></i>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Start Focus Us Youtube -->
+            <div class="focus_us_youtube_box">
+              <div class="title">
+                <h2>FOCUS US ON</h2>
+              </div>
+              <div class="img_box">
+                <a href="">
+                  <img
+                    src="https://www.rhaudiopa.com/themes/simple/img/sidebar_youtube.png"
+                    alt="youtube"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Focus Us Youtube-->
+
+            <!-- Start Download -->
+            <div class="download_box">
+              <div class="title">
+                <h2>Download</h2>
+              </div>
+              <div class="img_box">
+                <a href="">
+                  <img
+                    src="https://www.rhaudiopa.com/themes/simple/img/download.jpg"
+                    alt="youtube"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Download-->
+
+            <!-- Start RecentTag -->
+            <div class="recent_tag">
+              <div class="title_box">
+                <img
+                  src="https://www.rhaudiopa.com/themes/simple/img/tag.png"
+                  alt="save"
+                />
+                <span class="title">RECENT TAG</span>
+                <span class="line"></span>
+              </div>
+              <div class="tags_box">
+                <ul>
+                  <li><a href="#"> Pa System</a></li>
+                  <li><a href="#">Ceiling Speakers</a></li>
+                  <li><a href="#">Wifi Speakers </a></li>
+                  <li><a href="#">Public Address System</a></li>
+                  <li><a href="#">Bluetooth Ceiling Speakers</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End RecentTag -->
+          </div>
+
+          <!-- End SideBar -->
+
+          <!-- Start product -->
+          <div class="parent_of_product">
+            <div class="">
+              <!-- Start Carousel -->
+              <div class="parent_of_sliders">
+                <!-- Start Large Slider -->
+                <div class="slider slider-for">
+                  <div>
+                    <div class="img-zoom-custom">
+                      <img
+                        src="./assets/img/product-1.jpg"
+                        alt="Zoomable Image"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="img-zoom-custom">
+                      <img
+                        src="./assets/img/product-2.jpg"
+                        alt="Zoomable Image"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="img-zoom-custom">
+                      <img
+                        src="./assets/img/product-3.jpg"
+                        alt="Zoomable Image"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="img-zoom-custom">
+                      <img
+                        src="./assets/img/product-4.jpg"
+                        alt="Zoomable Image"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="img-zoom-custom">
+                      <img
+                        src="./assets/img/product-5.jpg"
+                        alt="Zoomable Image"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- End Large Slider -->
+
+                <div class="small_slider">
+                  <!-- Start small Slider -->
+                  <div class="slider slider-nav">
+                    <div><img src="./assets/img/product-1.jpg" alt="" /></div>
+                    <div><img src="./assets/img/product-2.jpg" alt="" /></div>
+                    <div><img src="./assets/img/product-3.jpg" alt="" /></div>
+                    <div><img src="./assets/img/product-4.jpg" alt="" /></div>
+                    <div><img src="./assets/img/product-5.jpg" alt="" /></div>
+                  </div>
+
+                  <!-- End small Slider -->
+                </div>
+
+                <!-- Start Zoom Icon -->
+                <div class="item_of_zoom_in">
+                  <!-- Button trigger modal -->
+                  <button
+                    type="button"
+                    class="open_zoom_icon"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                  >
+                    <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Product
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="" alt="" class="zoom_in_img" />
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Zoom Icon -->
+              </div>
+              <!-- End Carousel -->
+
+              <!-- Start Desc In Product -->
+              <div class="desc_in_product">
+                <p class="">
+                  MP3 FM Bluetooth Digital Class-D Amplifier ※ CE-RED & RoHS
+                  certified. ※ Digital class-D amplifier. ※ Built- in players of
+                  USB/ SD,FM tuner 87.5 MHz~108 MHz and Bluetooth receiver. ※
+                  Compact metal housing with front panel of aluminium alloy. ※
+                  SMT circuit boards with highly stable performance. ※ Pure
+                  copper transformers for power supply and 70V/ 100V audio
+                  outputs. ※ 2 microphone inputs and 1 line input. ※ High-
+                  definition display for the working status of playing program.
+                  ※ 70/100-volt and 4 to 16 ohms(Ω) output loads. ※ Individual
+                  volume controller for inputs. ※ BASS and TREBLE tone
+                  controllers. ※ Individual LED indicator for POWER/ SIGNAL/
+                  PROTECTION. PA AmplifierPA SystemPA System AmplifierPublic
+                  Address Amplifier
+                </p>
+              </div>
+              <!-- End Desc In Product -->
+            </div>
+
+            <!-- Start Tabs -->
+            <div>
+              <!-- Start Tabs Links -->
+              <div class="tabs">
+                <ul>
+                  <li class="desription active" data-active="desription">
+                    <span>Desription</span>
+                  </li>
+                  <li class="specifications" data-active="specification">
+                    <span>specifications</span>
+                  </li>
+                  <li class="equipments" data-active="equipments">
+                    <span>equipments</span>
+                  </li>
+                  <li class="downloads" data-active="downloads">
+                    <span>Downloads</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Tabs Links -->
+
+              <div class="parent_of_tabs">
+                <!-- Start  Desription-->
+                <div class="desription_tab tab active" data-active="desription">
+                  The BGM 6 Zoning Amplifiers are designed with overall
+                  70/100-volt or 4 to 16 ohms(Ω) loads and featured an industry
+                  leading 6- zoned 100 volt load solution, skillfully engineered
+                  into a 2U housing with rack mounting holes on both ends of
+                  front panel. 60/120/240/350/500 watts of amplifier power are
+                  available,with provided an audio output to 6 different zones
+                  within the venue, each zone has its own separate switch on/off
+                  manually operated on front panel. Like any other mixer
+                  amplifiers of ours,the 6 zoned amplifiers support two aux mono
+                  inputs,three local microphone inputs via 6.3mm
+                  interface,featuring muting function that MIC1 overrides
+                  MIC2,MIC3 AUX1,AUX2 with 0~30dB attenuation. Widely used for
+                  any kind of public areas where background music and voice
+                  announcement system are required. Front Panel Details:
+                </div>
+                <!-- End  Desription-->
+
+                <!-- Start Specification -->
+                <div class="specification_tab tab" data-active="specification">
+                  
+                  <table>
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                  </table>
+                </div>
+                <!-- End Specification -->
+
+                <!-- Start equipments -->
+                <div class="equipments_tab tab" data-active="equipments">
+                  Centro comercial Moctezuma
+                </div>
+                <!-- End equipments -->
+
+                <!-- Start  Downloads-->
+                <div class="downloads_tab tab" data-active="downloads">
+                  Centro comercial Moctezuma
+                </div>
+                <!-- End  Downloads-->
+              </div>
+              <!-- End Tabs -->
+            </div>
+
+            <!-- Start Related Products -->
+            <div class="related_products">
+              <!-- Title -->
+              <div class="title">
+                <h5 class="">Related Products</h5>
+              </div>
+              <!-- Title -->
+
+              <!-- Start Cards -->
+              <div class="parent_of_related_cards">
+                <!-- Start card 1 -->
+                <div class="related_product_card">
+                  <div class="">
+                    <a href="" class="">
+                      <img src="./assets/img/product-8.jpg" />
+                    </a>
+                  </div>
+                  <p class="">
+                    <a href="#" class="">
+                      20W Waterproof Landscape Speaker RH-S51
+                    </a>
+                  </p>
+                </div>
+                <!-- End card 1 -->
+
+                <!-- Start card 2 -->
+                <div class="related_product_card">
+                  <div class="">
+                    <a href="" class="">
+                      <img src="./assets/img/product-8.jpg" />
+                    </a>
+                  </div>
+                  <p class="">
+                    <a href="#" class="">
+                      20W Waterproof Landscape Speaker RH-S51
+                    </a>
+                  </p>
+                </div>
+                <!-- End card 2 -->
+
+                <!-- Start card 3 -->
+                <div class="related_product_card">
+                  <div class="">
+                    <a href="" class="">
+                      <img src="./assets/img/product-8.jpg" />
+                    </a>
+                  </div>
+                  <p class="">
+                    <a href="#" class="">
+                      20W Waterproof Landscape Speaker RH-S51
+                    </a>
+                  </p>
+                </div>
+                <!-- End card 3 -->
+              </div>
+              <!-- End Cards -->
+            </div>
+            <!-- End Related Products -->
+          </div>
+          <!-- End Product -->
+        </div>
+      </section>
+      <!-- End produc Section -->
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5160667314.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
