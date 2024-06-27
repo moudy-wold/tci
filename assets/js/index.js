@@ -25,7 +25,7 @@ openCloseLang.addEventListener("click", function () {
 openSearch.addEventListener("click", function () {
   lungList.classList.remove("active");
   burgerMenu.classList.remove("active");
-  search.classList.toggle("active");
+  search.classList.add("active");
 });
 
 searchInput.addEventListener("keyup", function () {
@@ -72,52 +72,11 @@ document.addEventListener("click", function (event) {
 // upScroll.addEventListener("click", function () {
 //   window.scrollTo({ top: 0, behavior: "smooth" });
 // });
-// https://moudy-wold.github.io/tci/#
-
-// Create a script tag and set the YouTube IFrame API source
-var tag = document.createElement("script");
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-// Create a function that will create an <iframe> (and YouTube player) after the API code downloads.
-var player;
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player("player", {
-    height: "290",
-    width: "390",
-    videoId: "oDrPsZxk-WM", // Replace with your video ID
-    playerVars: {
-      playersinline: 1,
-      controls: 1,
-    },
-    events: {
-      onReady: onPlayerReady,
-      onStateChange: onPlayerStateChange,
-    },
-  });
-}
-
-// The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-  event.target.playVideo();
-  console.log("red");
-}
-var done = false;
-// The API calls this function when the player's state changes.
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.PLAYING && !done) {
-    // alert('!');
-    console.log("Video ended");
-  }
-}
-
+ 
+ 
 
 arrowOpenItemInSideBar.forEach((item,index) => {
-  item.onclick = function() {
-      
-      
-      
+  item.onclick = function() { 
       parentOfItemInNavbar[index].classList.toggle("active");
   }
 });

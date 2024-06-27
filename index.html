@@ -15,7 +15,6 @@
   </head>
   <body>
     <div class="main">
-      
       <!-- Start NAvbar -->
       <div class="navBar">
         <div class="main_in_navbar container">
@@ -120,11 +119,11 @@
 
             <!-- {/* Start Search */} -->
             <div class="search">
-              <div class="main_search">
+              <form class="main_search">
                 <button type="submit" class="search_icon">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <form class="search_form">
+                <div class="search_form">
                   <div>
                     <input
                       type="text"
@@ -148,8 +147,8 @@
                       </svg>
                     </button>
                   </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
             <!-- {/* End Search */} -->
 
@@ -179,6 +178,7 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <a href="#">
@@ -319,7 +319,12 @@
               <span class=""></span>
             </div>
             <div class="player">
-              <div id="player"></div>
+              <iframe
+                width="365"
+                height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+              >
+              </iframe>
             </div>
           </div>
           <!-- End medya -->

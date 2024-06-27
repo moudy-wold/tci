@@ -163,6 +163,10 @@ button {
   transform: scale(1.1);
 }
 
+.langu_list ul li img{
+  width: 32px !important;
+  height: 22px !important;
+}
 .search {
   margin-right: 8px;
   margin-left: 8px;
@@ -579,15 +583,19 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding-top: 30px;
+  padding: 30px 1.5rem 0 ;
+  
 }
+
 .video .title_of_section {
   margin-top: 10px;
   padding-bottom: 20px;
 }
+
 .video .title_of_section h1 {
   color: var(--main-color);
 }
+
 .video .title_of_section span {
   background-color: var(--main-color);
 }
@@ -601,7 +609,9 @@ section {
   width: 60%;
   padding-bottom: 50px;
 }
-
+iframe{
+  border: 0!important;
+}
 .desc_in_video .title_of_section {
   margin-left: 0;
   margin-right: 0;
@@ -754,6 +764,10 @@ section {
   background-color: #efefef;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.carousel-inner img{
+
+max-height: 84vh;
 }
 
 .hero ul {
