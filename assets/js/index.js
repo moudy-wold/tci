@@ -11,6 +11,10 @@ let openBurgerMenuIcon = document.querySelector(".burgerMenu_icon");
 let burgerMenu = document.querySelector(".parent_of_Links_in_small");
 let upScroll = document.querySelector(".up_scrool");
 
+let parentOfItemInNavbar = document.querySelectorAll(".parentOfItemInNavbar");
+let arrowOpenItemInSideBar = document.querySelectorAll(".parent_of_item_in_navbar .open_close");
+
+
 openCloseLang.addEventListener("click", function () {
   console.log(lungList);
   burgerMenu.classList.remove("active");
@@ -65,9 +69,9 @@ document.addEventListener("click", function (event) {
   }
 });
 
-upScroll.addEventListener("click", function () {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
+// upScroll.addEventListener("click", function () {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// });
 // https://moudy-wold.github.io/tci/#
 
 // Create a script tag and set the YouTube IFrame API source
@@ -107,3 +111,13 @@ function onPlayerStateChange(event) {
     console.log("Video ended");
   }
 }
+
+
+arrowOpenItemInSideBar.forEach((item,index) => {
+  item.onclick = function() {
+      
+      
+      
+      parentOfItemInNavbar[index].classList.toggle("active");
+  }
+});
