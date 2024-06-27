@@ -1,0 +1,8 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore log files
+changes_log.txt
+file_changes_log.txt
+log_changes.py
+log_file_changes.py
