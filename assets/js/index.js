@@ -12,9 +12,7 @@ let burgerMenu = document.querySelector(".parent_of_Links_in_small");
 let upScroll = document.querySelector(".up_scrool");
 
 let parentOfItemInNavbar = document.querySelectorAll(".parentOfItemInNavbar");
-let arrowOpenItemInSideBar = document.querySelectorAll(
-  ".parent_of_item_in_navbar .open_close"
-);
+let arrowOpenItemInSideBar = document.querySelectorAll(".parent_of_item_in_navbar .open_close");
 
 let itemOfZoomIn = document.querySelector(".item_of_zoom_in");
 let zoomInImg = document.querySelector(".zoom_in_img");
@@ -39,13 +37,15 @@ tabsLinkInProduct.forEach((item) => {
     item.classList.add("active");
   };
 });
+if(itemOfZoomIn != null) {
 
-itemOfZoomIn.addEventListener("click", function () {
-  let slider_slices = document.querySelectorAll(
-    ".slick-slide.slick-current.slick-active"
-  );
-  zoomInImg.src = slider_slices[0].childNodes[1].childNodes[1].src;
-});
+  itemOfZoomIn.addEventListener("click", function () {
+    let slider_slices = document.querySelectorAll(
+      ".slick-slide.slick-current.slick-active"
+    );
+    zoomInImg.src = slider_slices[0].childNodes[1].childNodes[1].src;
+  });
+}
 
 openCloseLang.addEventListener("click", function () {
   console.log(lungList);
