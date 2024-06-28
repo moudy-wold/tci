@@ -32,6 +32,10 @@ button {
   background-color: transparent !important;
 }
 
+main {
+  overflow: hidden !important;
+  position: relative !important;
+}
 .main {
   position: relative !important;
   overflow: hidden !important;
@@ -42,6 +46,7 @@ button {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #000000d4;
+  overflow: hidden !important;
 }
 .main_in_navbar {
   display: flex;
