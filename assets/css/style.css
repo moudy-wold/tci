@@ -1249,17 +1249,20 @@ iframe {
 .desription_tab {
   font-size: 14px;
 }
-.related_products {
+.related_products,
+.related_news {
   margin-top: 25px;
 }
-.related_products .title {
+.related_products .title,
+.related_news .title {
   background-color: var(--main-color);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5px 0;
 }
-.related_products .title h5 {
+.related_products .title h5,
+.related_news .title h5 {
   color: white;
 }
 .parent_of_related_cards {
@@ -1368,6 +1371,119 @@ iframe {
   color: #3a5b78;
   text-decoration: none;
   font-size: 12px;
+}
+.solution_sidebar {
+  margin: 0 0 20px !important;
+}
+.solution_sidebar li {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.solution_card {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #ccc;
+  margin: 13px 0;
+}
+
+.solution_card .img_box img {
+  max-width: 210px;
+  max-height: 160px;
+  display: block;
+  margin: auto;
+}
+
+.solution_card .desc_box a {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: all 150ms linear;
+  display: block;
+}
+
+.solution_card .desc_box a:hover {
+  transform: scale(1.02);
+}
+
+.solution_card .desc_box p {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  margin-top: 7px;
+}
+.solution_card .desc_box span a {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 14px;
+}
+
+.solution_card .date_box {
+  line-height: 60px;
+}
+
+.solution_card .date_box p {
+  color: #ccc;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -13px;
+}
+
+.solution_card .date_box > :first-child {
+  font-size: 60px;
+  margin-top: 0 !important;
+}
+
+.solution_card .date_box hr {
+  width: 100%;
+  display: block;
+  height: 2px;
+  background-color: #ccc;
+  margin: 3px auto 0;
+}
+.solution_show {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+.solution_show .short_desc {
+  width: 50%;
+  padding-top: 10px;
+}
+.solution_show .img_box img {
+  max-width: 330px;
+  max-height: 180px;
+  display: block;
+  margin:auto;
+}
+
+.related_news .parent_of_related_news .related_new ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top:15px;
+}
+.related_news .parent_of_related_news .related_new ul li {
+  width: 48%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  
+}
+.related_news .parent_of_related_news .related_new a {
+  text-decoration: none;
+  transition: all 150ms linear;
+}
+.related_news .parent_of_related_news .related_new a:hover {
+  color: var(--main-color);  
 }
 @media (min-width: 335px) and (max-width: 1223px) {
   .container {
@@ -1517,13 +1633,59 @@ iframe {
   }
 
   .parent_of_related_cards {
-    
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    
   }
-  .related_product_card{
+  .related_product_card {
     margin-top: 15px;
   }
+
+  .solution_card {
+    display: block;
+    min-height: 320px;
+  }
+  .solution_card .desc_box {
+    height: 100%;
+    padding: 2px 12px;
+  }
+  .solution_card .desc_box p {
+    display: none;
+  }
+  .solution_card .desc_box span {
+    display: block;
+    margin-top: 60px;
+  }
+  .solution_card .img_box img {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+
+  .solution_card .date_box {
+    display: none;
+  }
+
+  .solution_show{
+    display: block;
+  }
+  .solution_show .img_box img {
+    max-width: 350px;
+    max-height: 210px;
+    display: block;
+    margin:auto;
+  }
+  
+  .solution_show .short_desc {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .related_news .parent_of_related_news .related_new ul {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .related_news .parent_of_related_news .related_new ul li {
+    width: 100%;
+    margin: 10px 0;
+  }
+
 }
 
 @media (min-width: 720px) {
@@ -1585,6 +1747,18 @@ iframe {
   }
   .sosyal_in_large {
     display: grid;
+  }
+  .solution_card {
+    display: flex;
+  }
+  .solution_card .desc_box p {
+    display: block;
+  }
+  .solution_card .date_box {
+    display: block;
+  }
+  .solution_card .desc_box span {
+    display: none;
   }
 }
 @media (min-width: 1240px) {
